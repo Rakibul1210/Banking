@@ -1,6 +1,7 @@
 package banking;
 
 public class Account {
+
     private String account_holder_name;
     private String account_phone_number;
 
@@ -18,6 +19,7 @@ public class Account {
     public Account(String name, String account_phone_number){
         this.account_holder_name = name;
         this.account_phone_number = account_phone_number;
+        this.pin ="2580";
     }
 
     public String getAccount_holder_name(){

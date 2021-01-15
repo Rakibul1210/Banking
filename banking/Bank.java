@@ -1,7 +1,6 @@
 package banking;
 
 public class Bank {
-
     public Bank(){
 
     }
